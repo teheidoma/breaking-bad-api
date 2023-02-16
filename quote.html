@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    html, body {
+        height: 400px;
+        width: 800px;
+        background: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #outer {
+        min-height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .quote {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 70px;
+    }
+
+    h2, h4 {
+        font-family: 'Montserrat Light';
+        text-align: center;
+    }
+    h4 {
+        align-self: flex-end;
+    }
+</style>
+<body>
+<div id="outer">
+    <img src="%img%"/>
+    <div class="quote">
+        <h2>%quote%</h2>
+        <h4>- %author%</h4>
+    </div>
+</div>
+</body>
+</html>

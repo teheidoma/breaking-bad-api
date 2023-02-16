@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Gustavo Fring",
+    "name_ua": "Ґуставо Фрінг",
+    "img": "gus.png"
+  },
+  {
+    "name": "The fly",
+    "name_ua": "Муха",
+    "img": "fly.png"
+  },
+  {
+    "name": "Saul Goodman",
+    "name_ua": "Сол Ґудман",
+    "img": "saul.png"
+  },
+  {
+    "name": "Gus Fring",
+    "name_ua": "Ґуставо Фрінг",
+    "img": "gus.png"
+  },
+  {
+    "name": "Skyler White",
+    "name_ua": "Скайлер Уайт",
+    "img": "skylar.png"
+  },
+  {
+    "name": "Hank Schrader",
+    "name_ua": "Генк Шрейдер",
+    "img": "hank.png"
+  },
+  {
+    "name": "Badger",
+    "name_ua": "Медоїд",
+    "img": "badger.png"
+  },
+  {
+    "name": "Walter White",
+    "name_ua": "Волтер Уайт",
+    "img": "walter.png"
+  },
+  {
+    "name": "Walter White Jr",
+    "name_ua": "Волтер Уайт Молодший",
+    "img": "wwj.png"
+  },
+  {
+    "name": "Mike Ehrmantraut",
+    "name_ua": "Майк Ерментраут",
+    "img": "mike.png"
+  },
+  {
+    "name": "Jesse Pinkman",
+    "name_ua": "Джесі Пінкман",
+    "img": "jesse.png"
+  }
+]
