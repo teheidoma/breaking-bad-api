@@ -1,6 +1,8 @@
 import json
 import discord
 import random as r
+import dotenv
+import os
 from html2image import Html2Image
 from easygoogletranslate import EasyGoogleTranslate
 
@@ -11,6 +13,7 @@ translator = EasyGoogleTranslate(
 )
 client = discord.Client(intents=discord.Intents.all())
 tree = discord.app_commands.CommandTree(client)
+dotenv.load_dotenv()
 
 
 @tree.command(name='random', description='qwe', guild=discord.Object(id=699197199883698198))
@@ -56,4 +59,4 @@ def get_image():
         hti.screenshot(html_str=template, save_as='a.png', size=(800, 400))
 
 
-client.run('NDk0ODg3MzA4ODkwNDcyNDU4.GZe7dl.nYl3e3omXHT6ZzzAwyAmf8WaXGb32ONYrxf17Q')
+client.run(os.environ.get('DISCORD_TOKEN'))
